@@ -1,4 +1,6 @@
 from addition import add_numbers
+
+
 def main():
     end_point = True
     first_number = input('Enter first number: ')
