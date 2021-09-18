@@ -22,7 +22,7 @@ def main():
         elif x == '4':
             print('Do something')
         elif x == '5':
-            print('Thanks for using the software. Have a good day')
+            print('Thanks for using the software. Have a good day.')
             end_point = False
         else:
             print('Cannot understand the answer, please try again\n')
