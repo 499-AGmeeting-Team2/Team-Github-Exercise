@@ -1,4 +1,6 @@
 from multiply import multiply
+
+
 def main():
     end_point = True
     first_number = int(input('Enter first number: '))
@@ -27,3 +29,4 @@ def main():
 
 
 main()
+
