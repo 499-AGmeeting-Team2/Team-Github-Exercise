@@ -16,7 +16,7 @@ def main():
         elif x == '2':
             print('Do something')
         elif x == '3':
-             print(multiply(first_number, second_number))
+            print(multiply(first_number, second_number))
         elif x == '4':
             print('Do something')
         elif x == '5':
