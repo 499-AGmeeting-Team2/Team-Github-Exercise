@@ -1,8 +1,7 @@
 from division import divison
 
+
 def main():
-
-
     end_point = True
     # This is make sure that input is integer
     first_number = int(input('Enter first number: '))
