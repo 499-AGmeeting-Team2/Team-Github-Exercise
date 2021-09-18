@@ -2,8 +2,9 @@ from division import divison
 
 def main():
     end_point = True
-    first_number = int(input('Enter first number: '))   #This is make sure that input is integer
-    second_number = int(input('Enter second number: ')) #This is make sure that input is integer
+    #This is make sure that input is integer
+    first_number = int(input('Enter first number: '))
+    second_number = int(input('Enter second number: '))
     while end_point:
         x = input('\nWhat do you want to do with your numbers? \n '
                   '1: Add \n '
