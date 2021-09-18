@@ -1,8 +1,8 @@
-
+from addition import add_numbers
 def main():
     end_point = True
-    first_number = int(input('Enter first number: '))
-    second_number = int(input('Enter second number: '))
+    first_number = input('Enter first number: ')
+    second_number = input('Enter second number: ')
     while end_point:
         x = input('\nWhat do you want to do with your numbers? \n '
                   '1: Add \n '
@@ -12,7 +12,7 @@ def main():
                   '5: Exit the program \n'
                   'Your choice : ')
         if x == '1':
-            print('The sum of %d and %d is: %d' % (first_number,second_number, first_number+second_number))
+            add_numbers(first_number, second_number)
         elif x == '2':
             print('Do something')
         elif x == '3':
