@@ -12,14 +12,9 @@ def main():
                   '5: Exit the program \n'
                   'Your choice : ')
         if x == '1':
-            input_key = input('\nEnter the keyword or substring '
-                              'you want to count in your string: ')
-            print('Number of occurrence for "{:s}" is {:d}'
-                  .format(input_key, search(input_main, input_key)))
+            print('Do something')
         elif x == '2':
-            print('\nHere is the stat of all the words in your string:')
-            for s in stat(input_main):
-                print(s)
+            print('Do something')
         elif x == '3':
             print('Do something')
         elif x == '4':
