@@ -4,4 +4,3 @@ def divison(first_number, second_number):
         return -1
     else:
         return first_number/second_number
-
