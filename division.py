@@ -1,6 +1,6 @@
 
 def division(first_number, second_number):
-    if second_number == 0:
+    if int(second_number) == 0:
         return -1
     else:
-        return first_number/second_number
+        return int(first_number)/int(second_number)

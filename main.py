@@ -14,7 +14,7 @@ def main():
                   '1: Add \n '
                   '2: Subtract \n '
                   '3: Multiply \n '
-                  '4: Divide \n'
+                  '4: Divide \n '
                   '5: Exit the program \n'
                   'Your choice : ')
         if x == '1':
