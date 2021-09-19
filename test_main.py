@@ -20,7 +20,8 @@ class test_main(unittest.TestCase):
         return subtraction(7, 3) == 4
     
     def test_division(self):
-        return division(10, 2) == 5
+        self.assertEqual(division(10,5) == 2)
+        self.assertEqual(division(10,0) == -1)
         
 
 if __name__ == '__main__':
