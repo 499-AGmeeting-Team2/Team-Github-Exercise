@@ -1,9 +1,14 @@
 import unittest
+from multiply import multiply
+
 from addition import add_numbers
 from subtraction import subtraction
 
 
-class TestFunctions(unittest.TestCase):
+class test_main(unittest.TestCase):
+
+    def test_multiply(self):
+        self.assertEqual(multiply(10, 5), 50)
 
     def test_sum(self):
         return add_numbers(3, 7) == 10
@@ -13,4 +18,4 @@ class TestFunctions(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    TestFunctions.main()
+    test_main.main()

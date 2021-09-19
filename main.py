@@ -1,3 +1,4 @@
+from multiply import multiply
 from subtraction import subtraction
 from addition import add_numbers
 from division import divison
@@ -6,8 +7,8 @@ from division import divison
 def main():
     end_point = True
     # This is make sure that input is integer
-    first_number = int(input('Enter first number: '))
-    second_number = int(input('Enter second number: '))
+    first_number = input('Enter first number: ')
+    second_number = input('Enter second number: ')
     while end_point:
         x = input('\nWhat do you want to do with your numbers? \n '
                   '1: Add \n '
@@ -23,7 +24,7 @@ def main():
                   .format(first_number, second_number,
                           subtraction(first_number, second_number)))
         elif x == '3':
-            print('Do something')
+            print(multiply(first_number, second_number))
         elif x == '4':
             print(divison(first_number, second_number))
         elif x == '5':
