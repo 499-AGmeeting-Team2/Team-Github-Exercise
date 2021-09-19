@@ -3,7 +3,6 @@ from addition import add_numbers
 from division import divison
 
 
-
 def main():
     end_point = True
     # This is make sure that input is integer
@@ -24,7 +23,7 @@ def main():
                   .format(first_number, second_number,
                           subtraction(first_number, second_number)))
         elif x == '3':
-            print('Do something') 
+            print('Do something')
         elif x == '4':
             print(divison(first_number, second_number))
         elif x == '5':
