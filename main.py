@@ -1,5 +1,4 @@
 from subtraction import subtraction
-
 from addition import add_numbers
 
 
@@ -11,14 +10,15 @@ def main():
         x = input('\nWhat do you want to do with your numbers? \n '
                   '1: Add \n '
                   '2: Subtract \n '
-                  '3: Mutiply \n '
+                  '3: Multiply \n '
                   '4: Divide \n'
                   '5: Exit the program \n'
                   'Your choice : ')
         if x == '1':
             print("%d + %d = " % add_numbers(first_number, second_number))
         elif x == '2':
-            print('Do something')
+            print('{:s} - {:s} = {:d} '
+                  .format(first_number, second_number, subtraction(first_number, second_number)))
         elif x == '3':
             print('Do something')
         elif x == '4':
