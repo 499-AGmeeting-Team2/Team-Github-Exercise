@@ -1,8 +1,16 @@
+ multiply
 from multiply import multiply
+
+from division import divison
+ main
 
 
 def main():
     end_point = True
+ multiply
+
+    # This is make sure that input is integer
+ main
     first_number = int(input('Enter first number: '))
     second_number = int(input('Enter second number: '))
     while end_point:
@@ -20,7 +28,7 @@ def main():
         elif x == '3':
             print(multiply(first_number, second_number))
         elif x == '4':
-            print('Do something')
+            print(divison(first_number, second_number))
         elif x == '5':
             print('Thanks for using the software. Have a good day.')
             end_point = False
