@@ -18,7 +18,7 @@ def main():
                   '5: Exit the program \n'
                   'Your choice : ')
         if x == '1':
-            print("%d + %d = " % add_numbers(first_number, second_number))
+            print("The sum is: %d" % add_numbers(first_number, second_number))
         elif x == '2':
             print('{:s} - {:s} = {:d} '
                   .format(first_number, second_number,
