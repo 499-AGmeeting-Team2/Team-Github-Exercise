@@ -7,4 +7,4 @@ Created on Sun Sep 19 01:13:57 2021
 
 
 def multiply(a, b):
-    return a*b
+    return int(a)*int(b)
