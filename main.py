@@ -18,7 +18,8 @@ def main():
             print("%d + %d = " % add_numbers(first_number, second_number))
         elif x == '2':
             print('{:s} - {:s} = {:d} '
-                  .format(first_number, second_number, subtraction(first_number, second_number)))
+                  .format(first_number, second_number,
+                          subtraction(first_number, second_number)))
         elif x == '3':
             print('Do something')
         elif x == '4':
