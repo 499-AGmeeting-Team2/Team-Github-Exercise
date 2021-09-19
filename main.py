@@ -14,7 +14,7 @@ def main():
                   '5: Exit the program \n'
                   'Your choice : ')
         if x == '1':
-            print("%d + %d = %d" % (int(first_number), int(second_number), add_numbers(first_number, second_number)))
+            print("The sum is: %d" % add_numbers(first_number, second_number))
         elif x == '2':
             print('Do something')
         elif x == '3':
