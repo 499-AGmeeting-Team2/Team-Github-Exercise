@@ -1,16 +1,14 @@
- multiply
+
 from multiply import multiply
 
 from division import divison
- main
 
 
 def main():
     end_point = True
- multiply
 
     # This is make sure that input is integer
- main
+
     first_number = int(input('Enter first number: '))
     second_number = int(input('Enter second number: '))
     while end_point:
