@@ -26,7 +26,7 @@ def main():
         elif x == '3':
             print(multiply(first_number, second_number))
         elif x == '4':
-            print(divison(first_number, second_number))
+            print(division(first_number, second_number))
         elif x == '5':
             print('Thanks for using the software. Have a good day.')
             end_point = False
