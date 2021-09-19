@@ -6,7 +6,7 @@ from subtraction import subtraction
 
 
 class test_main(unittest.TestCase):
-  
+
     def test_multiply(self):
         self.assertEqual(multiply(10, 5), 50)
 
